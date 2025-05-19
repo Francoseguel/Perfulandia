@@ -23,7 +23,7 @@ public class ProductoController {
         this.restTemplate = restTemplate;
     }
 
-    //listar
+    //listar mapa
     @GetMapping
     public List<Producto> listar(){
         return servicio.listar();
